@@ -145,7 +145,6 @@ def delete(pet):                            # This function deletes pet by its I
         print('you have entered an empty string')
 
 def animal_type_set(type_choice):
-    while True:
         try:
                         
             if type_choice == 1:
@@ -167,7 +166,7 @@ def animal_type_set(type_choice):
                 animal_type = 'Other'
                 return animal_type
             else:
-                print('Just type a number 1-6.')
+                print('Just type a number 1-7.')
             
         except ValueError:
             print('Just type a number.')
